@@ -1,0 +1,63 @@
+.food {
+  width: 100%;
+  height: 100%;
+
+  margin-top: 50.5px;
+
+  .festival {
+    width: 980.5px;
+    height: 400.5px;
+    margin: 0 auto;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 209, 64, 0.78),
+        rgba(255, 209, 64, 0.78)
+      ),
+      url(../images/1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .overlays {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 390px;
+    display: flex;
+    color: white;
+    padding: 10px;
+    font-family: GillSans;
+    font-size: 140px;
+
+    // .letter {
+    //   font-size: 300px;
+    //   top: 500px;
+    // }
+
+    p {
+      color: #ffd140;
+    }
+  }
+}
+
+.text-five {
+  margin-top: 50.5px;
+  margin-bottom: 73px;
+  width: 100%;
+  height: 133px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: GillSans;
+
+  color: lightslategrey;
+
+  p {
+    margin-left: 50px;
+    width: 490px;
+    height: 133px;
+    font-size: 16px;
+  }
+}

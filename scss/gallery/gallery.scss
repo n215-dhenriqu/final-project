@@ -1,0 +1,124 @@
+.text-two {
+  margin: 0 auto;
+  width: 980px;
+  font-family: GillSans;
+  font-size: 25px;
+  // margin-left: 240px;
+  margin-top: 86px;
+
+  hr {
+    width: 229px;
+    height: 2px;
+    border: none;
+    background-color: black;
+  }
+}
+
+.images-one {
+  margin: 0 auto;
+  width: 980px;
+  height: 187px;
+  margin-top: 29.5px;
+  display: flex;
+  justify-content: space-evenly;
+
+  .yellow {
+    width: 489px;
+    height: 187px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 209, 64, 0.78),
+        rgba(255, 209, 64, 0.78)
+      ),
+      url(../images/1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // margin-left: 310px;
+  }
+
+  .pink {
+    width: 187px;
+    height: 187px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(238, 67, 103, 0.78),
+        rgba(238, 67, 103, 0.78)
+      ),
+      url(../images/2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // left: 20px;
+  }
+
+  .green {
+    width: 265px;
+    height: 187px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(8, 173, 105, 0.78),
+        rgba(8, 173, 105, 0.78)
+      ),
+      url(../images/3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // margin-right: 310px;
+  }
+}
+
+.images-two {
+  margin: 0 auto;
+  width: 980px;
+  height: 187px;
+  margin-top: 29.5px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 200px;
+
+  .purple {
+    width: 603px;
+    height: 306px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(84, 13, 110, 0.78),
+        rgba(84, 13, 110, 0.78)
+      ),
+      url(../images/4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // margin-left: 300px;
+  }
+
+  .aqua {
+    width: 355px;
+    height: 306px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(59, 206, 171, 0.78),
+        rgba(59, 206, 171, 0.78)
+      ),
+      url(../images/5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // margin-right: 300px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .text-two {
+    // background-color: aquamarine;
+    width: 100%;
+    flex-direction: column;
+    max-height: 100%;
+  }
+  .images-one {
+    flex-direction: column;
+  }
+  .images-two {
+    flex-direction: column;
+  }
+}

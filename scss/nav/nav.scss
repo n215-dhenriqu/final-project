@@ -1,0 +1,64 @@
+nav {
+  max-width: 980px;
+  height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 99;
+
+  .logo-svg {
+  }
+
+  .links {
+    a {
+      text-decoration: none;
+    }
+
+    span {
+      margin: 0 20px;
+      font-size: 21.52px;
+      color: #ee4367;
+      border: none;
+    }
+  }
+}
+
+#line {
+  max-width: 980px;
+  height: 2px;
+  margin: 0 auto;
+}
+.white-line {
+  background-color: #fff;
+}
+
+.black-line {
+  background-color: #000;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.black-text {
+  color: #000;
+}
+
+.stroke-black {
+  stroke: #000;
+}
+
+.stroke-white {
+  stroke: #fff;
+}
+
+.fill-white {
+  fill: #fff;
+}
+
+.fill-black {
+  fill: #000;
+}

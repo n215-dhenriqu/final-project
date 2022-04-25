@@ -1,0 +1,100 @@
+.events {
+  max-width: 100%;
+  height: 320px;
+  background-color: #540d6e;
+  padding: 50px;
+
+  hr {
+    width: 392px;
+    height: 2px;
+    background-color: white;
+  }
+
+  .upcoming {
+    color: white;
+    font-family: GillSans;
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+
+  .months {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1180px;
+    // margin: 0 auto;
+
+    .month {
+      margin-top: 34.5px;
+      width: 220px;
+      height: 124px;
+      display: flex;
+      justify-content: space-between;
+
+      .blog {
+        text-decoration: none;
+
+        .day {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          width: 60px;
+          height: 60px;
+          //sample
+          background-color: #ee4367;
+          color: white;
+          text-decoration: none;
+
+          p {
+            font-weight: bold;
+            margin-bottom: 0px;
+          }
+          .three {
+            font-weight: normal;
+          }
+        }
+      }
+
+      .text-box {
+        width: 140px;
+        // height: 48px;
+        font-family: GillSans;
+
+        .text1 {
+          color: white;
+          font-size: 15px;
+        }
+
+        .text2 {
+          font-size: 13px;
+          color: #ee4367;
+        }
+      }
+    }
+  }
+}
+
+//selector(element .classname #id) {
+//    properties1;
+//}
+
+@media screen and (max-width: 1000px) {
+  .events {
+    // background-color: aquamarine;
+    width: 100%;
+    flex-direction: column;
+    min-height: 90%;
+  }
+
+  // .months {
+  //   flex-direction: column;
+  // }
+
+  .month {
+    flex-direction: column;
+  }
+
+  // p {
+  //   flex-direction: column;
+  // }
+}

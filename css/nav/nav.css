@@ -1,0 +1,31 @@
+.navWHT {
+  max-width: 980px;
+  height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+.navWHT .logo {
+  color: white;
+  border-color: white;
+  width: 92px;
+  height: 42px;
+}
+.navWHT .links a {
+  color: white;
+  text-decoration: none;
+}
+.navWHT .links span {
+  color: white;
+  margin: 0 20px;
+}

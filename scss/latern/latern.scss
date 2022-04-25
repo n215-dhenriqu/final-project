@@ -1,0 +1,55 @@
+.four {
+  width: 100%;
+  height: 100%;
+
+  margin-top: 50.5px;
+
+  .open {
+    width: 980.5px;
+    height: 400.5px;
+    margin: 0 auto;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(84, 13, 110, 0.78),
+        rgba(84, 13, 110, 0.78)
+      ),
+      url(../images/4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .overlaided {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: -470px;
+    top: 410px;
+    display: flex;
+    color: white;
+    padding: 10px;
+    font-family: GillSans;
+    font-size: 115px;
+    display: flex;
+
+    p {
+      color: #540d6e;
+    }
+  }
+
+  .over-lay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 244px;
+    display: flex;
+    color: white;
+    padding: 10px;
+    font-family: GillSans;
+    font-size: 140px;
+
+    p {
+      color: #540d6e;
+    }
+  }
+}

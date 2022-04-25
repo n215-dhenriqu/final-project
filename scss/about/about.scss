@@ -1,0 +1,76 @@
+.logo {
+  width: 979.5px;
+  height: 378.75px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 209, 64, 0.78),
+      rgba(255, 209, 64, 0.78)
+    ),
+    url(../images/about.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 151px;
+  margin: 0 auto;
+  margin-top: 85.5px;
+  position: relative;
+
+  //   .logo img {
+  //     height: 100%;
+  //     width: 100%;
+  //     object-fit: cover;
+  //   }
+
+  .overlay {
+    height: 100%;
+    width: 100%;
+    // background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 345px;
+    color: black;
+    padding: 10px;
+    /* z-index: 99; */
+
+    p {
+      font-size: 25px;
+      font-family: GillSans;
+    }
+
+    hr {
+      width: 229px;
+      height: 2px;
+      border: none;
+      background-color: black;
+    }
+  }
+}
+
+.text-one {
+  width: 100%;
+  font-family: GillSans;
+  font-size: 16px;
+  color: #707070;
+  margin-top: 52.3px;
+  margin-bottom: 95px;
+
+  p {
+    width: 980px;
+    height: 96px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .logo {
+    // background-color: aquamarine;
+    width: 85%;
+    flex-direction: column;
+    min-height: 90%;
+  }
+  .text-one {
+    flex-direction: column;
+
+    p {
+      flex-direction: column;
+    }
+  }
+}
